@@ -145,11 +145,12 @@ It’s a simple idea with powerful results — helping you plan meals better, wa
         <h3>Get expiry date reminders</h3>
         <span>Set reminders &rarr;</span>
       </a>
-      <a href="/recipes" class="cta-card">
-        <img src="@/assets/icon-recipes.svg" alt="Leftover Recipes" />
-        <h3>Use leftover-based recipes</h3>
-        <span>Cook smart &rarr;</span>
-      </a>
+      <router-link to="/recipes" class="cta-card">
+  <img src="@/assets/icon-recipes.svg" alt="Leftover Recipes" />
+  <h3>Use leftover-based recipes</h3>
+  <span>Cook smart &rarr;</span>
+</router-link>
+
     </div>
   </div>
 </section>

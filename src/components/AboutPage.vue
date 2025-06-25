@@ -1,8 +1,7 @@
 <template>
-  <div>
-        <!-- Navbar -->
+     <!-- Navbar -->
     <header class="navbar">
-      <div class="navbar__inner">
+      <div class="navbar__inner container">
         <div class="text-2xl font-bold">FoodWasteApp</div>
         <nav>
           <router-link to="/"       class="navbar__link">Home</router-link>
@@ -13,6 +12,7 @@
         </nav>
       </div>
     </header>
+  <div>
     <!-- Hero section -->
     <section class="about-hero">
       <div class="container">
@@ -101,7 +101,7 @@
 
 
 <script setup lang="ts">
-// No additional logic needed for now
+// No additionl logic needed for nowa
 </script>
 
 <style scoped>

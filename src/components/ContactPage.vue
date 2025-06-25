@@ -1,7 +1,7 @@
 <template>
-  <div>
+     <!-- Navbar -->
     <header class="navbar">
-      <div class="navbar__inner">
+      <div class="navbar__inner container">
         <div class="text-2xl font-bold">FoodWasteApp</div>
         <nav>
           <router-link to="/"       class="navbar__link">Home</router-link>
@@ -12,6 +12,7 @@
         </nav>
       </div>
     </header>
+  <div>
     <!-- Hero section -->
     <section class="contact-hero">
       <div class="container">

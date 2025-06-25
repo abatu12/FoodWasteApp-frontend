@@ -67,10 +67,14 @@ async function handleLogin() {
       username: username.value,
       password: password.value,
     })
+    // Sačuvaj access i refresh tokene
     localStorage.setItem('accessToken', data.accessToken)
+    localStorage.setItem('refreshToken', data.refreshToken)
+    // Preusmeri korisnika
     router.push('/')
   } catch (e: any) {
     error.value = e.response?.data?.message || 'Login failed'
   }
 }
 </script>
+
