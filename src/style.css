@@ -53,6 +53,25 @@ body {
 }
 /* HOMEPAGE STYLES */
 
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.lang-btn {
+  background: transparent;
+  border: 1px solid currentColor;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+.lang-btn.active {
+  background-color: #22c55e;
+  color: white;
+  border-color: #22c55e;
+}
 /* HERO */
 .hero {
   display: flex;
@@ -770,3 +789,5 @@ body {
   font-size: 1.25rem;
   color: #718096;
 }
+
+/*LISTINGS LIST*/

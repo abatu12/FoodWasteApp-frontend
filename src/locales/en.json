@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "brand": "FoodWasteApp",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "signup": "Sign Up"
+  },
+  "lang": {
+    "label": "Language",
+    "en": "EN",
+    "hr": "HR"
+  },
+  "hero": {
+    "titleLine1": "Smarter food sharing",
+    "titleLine2": "for a better tomorrow",
+    "desc": "Join our community and reduce waste by sharing your excess food with neighbors.",
+    "button": "Get started"
+  },
+  "partners": {
+    "title": "Our partners"
+  },
+  "features": {
+    "title": "App features that help you reduce food waste",
+    "listings": {
+      "title": "Nearby Listings",
+      "desc": "Find or post listings of available food in your area."
+    },
+    "reminders": {
+      "title": "Set Reminders",
+      "desc": "Never forget to share before your food expires."
+    },
+    "recipes": {
+      "title": "Leftover Recipes",
+      "desc": "Get inspired by recipes using common leftovers."
+    }
+  },
+  "restaurant": {
+    "title": "Helping a local restaurant save 100+ meals a week",
+    "desc": "Every week we team up with neighborhood eateries to redistribute surplus dishes before they go to waste. With our platform, the restaurant owner simply logs their extra meals, and local families can claim them — cutting down food waste and spreading goodwill.",
+    "button": "Learn More"
+  },
+  "stats": {
+    "title": "Together, we’re making a difference",
+    "users":     { "label": "Active Users" },
+    "meals":     { "label": "Meals Saved" },
+    "alerts":    { "label": "Expiry Alerts" },
+    "locations": { "label": "Shared Locations" }
+  },
+  "testimonial": {
+    "text":  "Every year, millions of tons of food are wasted simply because we forget what we bought, when we bought it, or when it will expire. Our app’s smart expiry date reminder feature helps users keep track of food items at home. You simply scan or enter your groceries, and the app will send you gentle reminders before the food expires. It’s a simple idea with powerful results — helping you plan meals better, waste less, and even save money.",
+    "quote": "“Since I started using expiry reminders, I’ve cut my food waste in half. It also helps me organize my weekly meals!”",
+    "author":"— Ivana M.",
+    "cta":   "Meet all customers →"
+  },
+  "cta": {
+    "listings": "Explore →",
+    "alerts":   "Set reminder →",
+    "recipes":  "Cook smart →"
+  },
+  "footer": {
+    "copyright": "© {year} Food Sharing Project. All rights reserved."
+  },
+
+  "about": {
+    "hero": {
+      "title": "About Us",
+      "desc": "FoodWasteApp is dedicated to reducing food waste, connecting communities, and preserving our planet. Together we can make a difference—meal by meal, moment by moment."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "desc": "Our mission is to leverage technology and community spirit to curb food waste. We connect those with surplus food to those in need, raise awareness about sustainability, and support local sharing initiatives."
+    },
+    "cardsTitle": "How We Help the Planet",
+    "cards": {
+      "reduce": {
+        "title": "Reduce Waste",
+        "desc": "We match surplus food with those who need it, preventing edible items from ending up in landfills and protecting our environment."
+      },
+      "community": {
+        "title": "Strengthen Community",
+        "desc": "By fostering neighborhood food exchanges, we build stronger local bonds and promote mutual support."
+      },
+      "education": {
+        "title": "Sustainable Education",
+        "desc": "We provide recipes and tips for using leftovers, reducing the need for new production and lowering carbon footprints."
+      }
+    },
+    "statsTitle": "Our Impact in Numbers",
+    "stats": {
+      "shared": { "value": "2,345,678", "label": "Meals Shared" },
+      "saved":  { "value": "123,456 kg", "label": "Food Saved" },
+      "users":  { "value": "4,567", "label": "Active Users" }
+    },
+    "cta": {
+      "title": "Join Us Today!",
+      "button": "Sign Up Now"
+    }
+  },
+    "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "desc": "Have a question or suggestion? We’d love to hear from you."
+    },
+    "info": {
+      "title": "Get in Touch",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "emailVal": "support@foodwasteapp.example.com",
+      "phoneVal": "+1 (234) 567-8901",
+      "addressVal": "123 Food St, Sustainability City, Earth"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "namePlaceholder": "Your Name",
+      "emailPlaceholder": "Your Email",
+      "messagePlaceholder": "Your Message",
+      "submit": "Send Message"
+    }
+  }
+}

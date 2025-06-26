@@ -1,6 +1,5 @@
 <template>
   <div class="auth-container">
-    <!-- Marketing panel -->
     <div class="auth-panel">
       <div class="auth-panel__inner">
         <h2 class="auth-panel__title">Sign in to</h2>
@@ -25,7 +24,6 @@
       </div>
     </div>
 
-    <!-- Form panel -->
     <div class="auth-form-panel">
       <form @submit.prevent="handleLogin" class="auth-form">
         <h3 class="auth-form__heading">Sign in</h3>
@@ -67,10 +65,8 @@ async function handleLogin() {
       username: username.value,
       password: password.value,
     })
-    // Sačuvaj access i refresh tokene
     localStorage.setItem('accessToken', data.accessToken)
     localStorage.setItem('refreshToken', data.refreshToken)
-    // Preusmeri korisnika
     router.push('/')
   } catch (e: any) {
     error.value = e.response?.data?.message || 'Login failed'

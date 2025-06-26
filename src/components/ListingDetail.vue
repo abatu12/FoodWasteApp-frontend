@@ -1,10 +1,19 @@
 <template>
+   <header class="navbar">
+      <div class="navbar__inner container">
+        <div class="text-2xl font-bold">FoodWasteApp</div>
+        <nav>
+          <router-link to="/"       class="navbar__link">Home</router-link>
+          <router-link to="/about"  class="navbar__link">About</router-link>
+          <router-link to="/contact" class="navbar__link">Contact</router-link>
+          <router-link to="/login"   class="navbar__btn">Login</router-link>
+          <router-link to="/register" class="navbar__btn">Sign Up</router-link>
+        </nav>
+      </div>
+    </header>
   <div class="p-4 space-y-4">
     <!-- Back button -->
-    <button
-      @click="router.back()"
-      class="text-green-600 hover:underline"
-    >
+    <button @click="router.back()" class="text-green-600 hover:underline">
       ← Back to listings
     </button>
 
@@ -91,3 +100,49 @@ export default defineComponent({
   },
 })
 </script>
+<style scoped>
+/* padding + vertikalni razmak */
+.p-4             { padding:      1rem; }
+.space-y-4 > * + * { margin-top:   1rem; }
+
+/* back-button */
+.text-green-600    { color:        #16a34a; }
+.hover\:underline:hover { text-decoration: underline; }
+
+/* loading / error */
+.text-center       { text-align:   center; }
+.py-10             { padding-top: 2.5rem; padding-bottom: 2.5rem; }
+.text-red-600      { color:        #e53e3e; }
+
+/* detail card */
+.border            { border:       1px solid #e2e8f0; }
+.p-6               { padding:      1.5rem; }
+.rounded           { border-radius:8px; }
+.shadow            { box-shadow:   0 2px 4px rgba(0,0,0,0.05); }
+
+/* naslovi i tekstovi */
+.text-2xl          { font-size:    1.5rem; }
+.font-bold         { font-weight:  700; }
+.mb-2              { margin-bottom:0.5rem; }
+.mb-1              { margin-bottom:0.25rem; }
+.mb-4              { margin-bottom:1rem; }
+.text-gray-600     { color:        #718096; }
+
+/* layout flex + razmak između gumba */
+.flex              { display:      flex; }
+.space-x-2 > * + * { margin-left:  0.5rem; }
+
+/* button styling */
+.px-4              { padding-left: 1rem; padding-right: 1rem; }
+.py-2              { padding-top:  0.5rem; padding-bottom:0.5rem; }
+.text-white        { color:        #fff; }
+.rounded           { border-radius:4px; }
+
+/* plavi Edit */
+.bg-blue-500       { background-color: #3b82f6; }
+.hover\:bg-blue-600:hover { background-color: #2563eb; }
+
+/* crveni Delete */
+.bg-red-500        { background-color: #ef4444; }
+.hover\:bg-red-600:hover  { background-color: #dc2626; }
+</style>

@@ -1,0 +1,122 @@
+{
+  "nav": {
+    "brand": "FoodWasteApp",
+    "home": "Početna",
+    "about": "O nama",
+    "contact": "Kontakt",
+    "login": "Prijava",
+    "signup": "Registracija"
+  },
+  "lang": {
+    "label": "Jezik",
+    "en": "EN",
+    "hr": "HR"
+  },
+  "hero": {
+    "titleLine1": "Pametnije dijeljenje hrane",
+    "titleLine2": "za bolje sutra",
+    "desc": "Pridružite se našoj zajednici i smanjite otpad dijeleći višak hrane sa susjedima.",
+    "button": "Započni"
+  },
+  "partners": {
+    "title": "Naši partneri"
+  },
+  "features": {
+    "title": "Značajke aplikacije koje pomažu smanjiti otpad hrane",
+    "listings": {
+      "title": "Ponude u blizini",
+      "desc": "Pronađite ili objavite ponude hrane u svojoj blizini."
+    },
+    "reminders": {
+      "title": "Podsjetnici",
+      "desc": "Nikad ne zaboravite podijeliti prije isteka roka trajanja."
+    },
+    "recipes": {
+      "title": "Recepti od ostataka",
+      "desc": "Inspirirajte se receptima koristeći ostatke."
+    }
+  },
+  "restaurant": {
+    "title": "Pomoć lokalnom restoranu da spasi 100+ obroka tjedno",
+    "desc": "Svaki tjedan surađujemo s lokalnim restoranima kako bismo redistribuirali višak jela prije nego što završe u smeću. Naša platforma omogućuje vlasnicima restorana da na brzinu evidentiraju višak porcija, a susjedi ih mogu preuzeti — smanjujući otpad i šireći dobrobit.",
+    "button": "Saznaj više"
+  },
+  "stats": {
+    "title": "Zajedno činimo razliku",
+    "users":     { "label": "Aktivni korisnici" },
+    "meals":     { "label": "Spašeni obroci" },
+    "alerts":    { "label": "Podsjetnici" },
+    "locations": { "label": "Podijeljene lokacije" }
+  },
+  "testimonial": {
+    "text":  "Svake godine milijuni tona hrane završe u smeću jer zaboravimo što smo kupili, kada smo kupili ili kada istječe rok trajanja. Naša funkcija pametnih podsjetnika za rok trajanja pomaže vam pratiti namirnice kod kuće. Jednostavno skenirate ili unesete svoje namirnice, a aplikacija će vam poslati nježne podsjetnike prije nego što hrana istekne. Jednostavna ideja, snažni rezultati — pomaže vam bolje planirati obroke, manje trošiti i uštedjeti.",
+    "quote": "“Otkad koristim podsjetnike, prepolovio/la sam otpad hrane. Također mi pomažu organizirati tjedne obroke!”",
+    "author":"— Ivana M.",
+    "cta":   "Pogledaj sve korisnike →"
+  },
+  "cta": {
+    "listings": "Istraži →",
+    "alerts":   "Postavi podsjetnik →",
+    "recipes":  "Kuhaj pametno →"
+  },
+  "footer": {
+    "copyright": "© {year} Projekt dijeljenja hrane. Sva prava zadržana."
+  },
+    "about": {
+    "hero": {
+      "title": "O nama",
+      "desc": "FoodWasteApp posvećen je smanjenju otpada hrane, povezivanju zajednica i očuvanju našeg planeta. Zajedno možemo napraviti razliku – obrok po obrok, trenutak po trenutak."
+    },
+    "mission": {
+      "title": "Naša misija",
+      "desc": "Naša je misija iskoristiti tehnologiju i duh zajedništva za suzbijanje otpada hrane. Povezujemo one sa viškom hrane s onima kojima je potrebna, podižemo svijest o održivosti i podržavamo lokalne inicijative dijeljenja."
+    },
+    "cardsTitle": "Kako pomažemo planeti",
+    "cards": {
+      "reduce": {
+        "title": "Smanjiti otpad",
+        "desc": "Uspostavljamo vezu između viška hrane i onih kojima je potrebna, sprječavajući da jestive namirnice završe na odlagalištima i štiteći okoliš."
+      },
+      "community": {
+        "title": "Jačanje zajednice",
+        "desc": "Poticanjem susjedskih razmjena hrane jačamo lokalne veze i promičemo međusobnu podršku."
+      },
+      "education": {
+        "title": "Održivo obrazovanje",
+        "desc": "Pružamo recepte i savjete za korištenje ostataka, smanjujući potrebu za novom proizvodnjom i smanjujući ugljični otisak."
+      }
+    },
+    "statsTitle": "Naš utjecaj u brojkama",
+    "stats": {
+      "shared": { "value": "2.345.678", "label": "Podijeljenih obroka" },
+      "saved":  { "value": "123.456 kg", "label": "Spašene hrane" },
+      "users":  { "value": "4.567", "label": "Aktivnih korisnika" }
+    },
+    "cta": {
+      "title": "Pridružite nam se danas!",
+      "button": "Registrirajte se"
+    }
+  },
+    "contact": {
+    "hero": {
+      "title": "Kontaktirajte nas",
+      "desc": "Imate pitanje ili prijedlog? Rado ćemo vas poslušati."
+    },
+    "info": {
+      "title": "Javite se",
+      "email": "Email",
+      "phone": "Telefon",
+      "address": "Adresa",
+      "emailVal": "podrska@foodwasteapp.example.com",
+      "phoneVal": "+1 (234) 567-8901",
+      "addressVal": "Ulica Hrana 123, Grad Održivosti, Zemlja"
+    },
+    "form": {
+      "title": "Pošaljite nam poruku",
+      "namePlaceholder": "Vaše ime",
+      "emailPlaceholder": "Vaš email",
+      "messagePlaceholder": "Vaša poruka",
+      "submit": "Pošalji poruku"
+    }
+  }
+}

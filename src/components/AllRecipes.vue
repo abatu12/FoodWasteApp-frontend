@@ -1,5 +1,4 @@
 <template>
-  <!-- Navbar -->
   <header class="navbar">
     <div class="navbar__inner container">
       <div class="text-2xl font-bold">FoodWasteApp</div>
@@ -42,7 +41,6 @@
     </div>
   </div>
 
-  <!-- Footer -->
   <footer class="site-footer">
     <p class="text-center">&copy; 2025 Food Sharing Project. All rights reserved.</p>
   </footer>
