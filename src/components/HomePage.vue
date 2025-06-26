@@ -135,11 +135,15 @@ It’s a simple idea with powerful results — helping you plan meals better, wa
   <section class="testimonial-ctas container">
     <div class="container">
     <div class="cta-cards">
-      <a href="/listings" class="cta-card">
+      <router-link
+        :to="{ name: 'ListingsList' }"
+        class="cta-card"
+      >
         <img src="@/assets/icon-listings.svg" alt="Nearby Listings" />
         <h3>Find nearby food listings</h3>
         <span>Explore &rarr;</span>
-      </a>
+      </router-link>
+
       <a href="/reminders" class="cta-card">
         <img src="@/assets/icon-alerts.svg" alt="Expiry Alerts" />
         <h3>Get expiry date reminders</h3>
